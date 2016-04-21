@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Effective C++ explicit", "Effective C++\Effective C++.vcxproj", "{9433B619-DD13-4991-B1B6-F4E44FB2E655}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "explicit", "Effective C++\Effective C++.vcxproj", "{9433B619-DD13-4991-B1B6-F4E44FB2E655}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Copy constructor, Copy assignment operator", "Copy constructor, Copy assignment operator\Copy constructor, Copy assignment operator.vcxproj", "{4A3BC433-AD5A-46DB-BF53-D441725D682D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "undefined behavior", "undefined behavior\undefined behavior.vcxproj", "{D5BA739D-3D53-4981-B75F-CCB90C0204CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4A3BC433-AD5A-46DB-BF53-D441725D682D}.Debug|Win32.Build.0 = Debug|Win32
 		{4A3BC433-AD5A-46DB-BF53-D441725D682D}.Release|Win32.ActiveCfg = Release|Win32
 		{4A3BC433-AD5A-46DB-BF53-D441725D682D}.Release|Win32.Build.0 = Release|Win32
+		{D5BA739D-3D53-4981-B75F-CCB90C0204CC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D5BA739D-3D53-4981-B75F-CCB90C0204CC}.Debug|Win32.Build.0 = Debug|Win32
+		{D5BA739D-3D53-4981-B75F-CCB90C0204CC}.Release|Win32.ActiveCfg = Release|Win32
+		{D5BA739D-3D53-4981-B75F-CCB90C0204CC}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
