@@ -1,11 +1,23 @@
-// undefined behavior.cpp : ÄÜ¼Ö ÀÀ¿ë ÇÁ·Î±×·¥¿¡ ´ëÇÑ ÁøÀÔÁ¡À» Á¤ÀÇÇÕ´Ï´Ù.
+ï»¿// undefined behavior.cpp : ì½˜ì†” ì‘ìš© í”„ë¡œê·¸ë¨ì— ëŒ€í•œ ì§„ì…ì ì„ ì •ì˜í•©ë‹ˆë‹¤.
 //
 
 #include "stdafx.h"
+#include <iostream>
 
+#include <vld.h>
 
-int _tmain(int argc, _TCHAR* argv[])
+class Foo {};
+
+int main()
 {
+	Foo* p[4];
+
+	for (int i = 0; i < 4; ++i)
+	{
+		p[i] = new Foo();
+	}
+
+	// ..much later..
+	delete p;
 	return 0;
 }
-
