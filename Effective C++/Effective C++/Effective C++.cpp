@@ -1,4 +1,4 @@
-// Effective C++.cpp : ÄÜ¼Ö ÀÀ¿ë ÇÁ·Î±×·¥¿¡ ´ëÇÑ ÁøÀÔÁ¡À» Á¤ÀÇÇÕ´Ï´Ù.
+ï»¿// Effective C++.cpp : ì½˜ì†” ì‘ìš© í”„ë¡œê·¸ë¨ì— ëŒ€í•œ ì§„ì…ì ì„ ì •ì˜í•©ë‹ˆë‹¤.
 //
 
 #include "stdafx.h"
@@ -27,7 +27,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	doSomething(bObj1);
 
 	B bObj2(28);
-	doSomething(28);
+	doSomething(28);	//error ë§¤ê°œë³€ìˆ˜ê°€ Btypeì´ ì•„ë‹ˆê¸° ë•Œë¬¸
 	doSomething(B(28));
 	return 0;
 }
