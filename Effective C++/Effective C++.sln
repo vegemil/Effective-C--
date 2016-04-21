@@ -7,7 +7,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "explicit", "Effective C++\E
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Copy constructor, Copy assignment operator", "Copy constructor, Copy assignment operator\Copy constructor, Copy assignment operator.vcxproj", "{4A3BC433-AD5A-46DB-BF53-D441725D682D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "undefined behavior", "undefined behavior\undefined behavior.vcxproj", "{D5BA739D-3D53-4981-B75F-CCB90C0204CC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "new delete not match", "undefined behavior\undefined behavior.vcxproj", "{D5BA739D-3D53-4981-B75F-CCB90C0204CC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "atomic_is_lock_free", "atomic_is_lock_free\atomic_is_lock_free.vcxproj", "{5EAE5100-80BD-40BB-8841-E669238B5E6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{D5BA739D-3D53-4981-B75F-CCB90C0204CC}.Debug|Win32.Build.0 = Debug|Win32
 		{D5BA739D-3D53-4981-B75F-CCB90C0204CC}.Release|Win32.ActiveCfg = Release|Win32
 		{D5BA739D-3D53-4981-B75F-CCB90C0204CC}.Release|Win32.Build.0 = Release|Win32
+		{5EAE5100-80BD-40BB-8841-E669238B5E6F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5EAE5100-80BD-40BB-8841-E669238B5E6F}.Debug|Win32.Build.0 = Debug|Win32
+		{5EAE5100-80BD-40BB-8841-E669238B5E6F}.Release|Win32.ActiveCfg = Release|Win32
+		{5EAE5100-80BD-40BB-8841-E669238B5E6F}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
