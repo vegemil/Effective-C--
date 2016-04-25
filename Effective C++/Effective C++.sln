@@ -9,7 +9,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Copy constructor, Copy assi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "new delete not match", "undefined behavior\undefined behavior.vcxproj", "{D5BA739D-3D53-4981-B75F-CCB90C0204CC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "atomic_is_lock_free", "atomic_is_lock_free\atomic_is_lock_free.vcxproj", "{5EAE5100-80BD-40BB-8841-E669238B5E6F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mutable", "mutable\mutable.vcxproj", "{D27858F4-16A7-4996-8749-CD1AA53E2D70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{D5BA739D-3D53-4981-B75F-CCB90C0204CC}.Debug|Win32.Build.0 = Debug|Win32
 		{D5BA739D-3D53-4981-B75F-CCB90C0204CC}.Release|Win32.ActiveCfg = Release|Win32
 		{D5BA739D-3D53-4981-B75F-CCB90C0204CC}.Release|Win32.Build.0 = Release|Win32
-		{5EAE5100-80BD-40BB-8841-E669238B5E6F}.Debug|Win32.ActiveCfg = Debug|Win32
-		{5EAE5100-80BD-40BB-8841-E669238B5E6F}.Debug|Win32.Build.0 = Debug|Win32
-		{5EAE5100-80BD-40BB-8841-E669238B5E6F}.Release|Win32.ActiveCfg = Release|Win32
-		{5EAE5100-80BD-40BB-8841-E669238B5E6F}.Release|Win32.Build.0 = Release|Win32
+		{D27858F4-16A7-4996-8749-CD1AA53E2D70}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D27858F4-16A7-4996-8749-CD1AA53E2D70}.Debug|Win32.Build.0 = Debug|Win32
+		{D27858F4-16A7-4996-8749-CD1AA53E2D70}.Release|Win32.ActiveCfg = Release|Win32
+		{D27858F4-16A7-4996-8749-CD1AA53E2D70}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
